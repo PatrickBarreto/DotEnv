@@ -10,7 +10,7 @@ class DotEnv {
      * @param string $envPath
      * @return bool
      */
-    public function fill(string $envPath){
+    public static function fill(string $envPath){
         if(file_exists($envPath)) {
             $openedFile = fopen($envPath, 'r');
             
