@@ -1,0 +1,20 @@
+{
+    "name": "patrick-barreto/dot-env",
+    "description": "This package gonna build the environment variables by an .env",
+    "type": "library",
+    "license": "GPL-3.0-or-later",
+    "author": [
+        {
+            "name": "Patrick Barreto"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "DotEnv\\": "src/"
+        }
+    },
+    "require": {
+        "php":">=7.0"
+    }
+}
