@@ -25,7 +25,7 @@ class DotEnv {
             }
 
             fclose($openedFile);
-            
+        
             return true;
         }
         return false;
